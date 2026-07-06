@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+   
+#nav{
+    height: 75px;
+    background-color: #f6f3ec;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 70px;
+
+}
+.link{
+    margin-right: 80px;
+}
+.link a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-left: 10px;
+
+}
+#spclLink{
+    background-color: black;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 60px;
+
+    /*section*/
+}
+.abcd{
+    padding: 80px;
+}
+.abcd h1{
+    font-size: 100px;
+    line-height: 1;
+    font-family: Georgia,serif;
+}
+.abcd p{
+    margin-top: 100px;
+    font-size: 24px;
+    color: black;
+}
+.bts{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 35px;
+    background: rgb(6, 130, 10);
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px ;
+}
+.flower{
+    position: absolute;
+    right: 0;
+    top: 100px; /* apne hisab se adjust karo */
+}
+
+
+.flower img{
+    height: 500px;
+    width: 500px; /* optional */
+}

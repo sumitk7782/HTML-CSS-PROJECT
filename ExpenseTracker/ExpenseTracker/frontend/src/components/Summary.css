@@ -1,0 +1,35 @@
+.summary{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    margin:20px 0;
+    flex-wrap:wrap;
+}
+
+.summary-card{
+    flex:1;
+    min-width:220px;
+    padding:20px;
+    border-radius:15px;
+    color:white;
+    text-align:center;
+    box-shadow:0 8px 15px rgba(0,0,0,.2);
+}
+
+.total-card{
+    background:linear-gradient(135deg,#11998e,#38ef7d);
+}
+
+.count-card{
+    background:linear-gradient(135deg,#ff512f,#dd2476);
+}
+
+.summary-card h3{
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.summary-card h2{
+    font-size:32px;
+    font-weight:bold;
+}
